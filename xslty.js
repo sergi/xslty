@@ -6,7 +6,7 @@ window.__dirname = phantom.libraryPath;
 window.__filename = phantom.libraryPath + "/" + phantom.scriptName;
 
 if (system.args.length < 3) {
-  console.log("Usage: echoToFile.js DESTINATION_FILE <arguments to echo...>");
+  console.log("Usage: xslty.js SOURCE_XML XSLT_FILE");
   phantom.exit(1);
 } else {
   var xml = fs.read(system.args[1]);
