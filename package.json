@@ -1,7 +1,7 @@
 {
   "name": "xslty",
   "id": "xslty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "XSLT 2.0 commandline processor",
   "keywords": [ "xslt", "xml", "processor", "tools", "javascript", "transform", "transformation"],
   "author": "Sergi Mansilla <sergi.mansilla@gmail.com> (http://sergimansilla.com)",
@@ -19,7 +19,7 @@
     "node": ">=0.8.0"
   },
   "bin": {
-    "xslty": "bin/xslty"
+    "xslty": "bin/cmd.sh"
   },
   "licenses": [
     {
