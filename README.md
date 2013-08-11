@@ -25,7 +25,7 @@ npm install xslty -g
 ```
 xslty source.xml style.xsl
 ```
-The order of parameters is important. The source XML has to always go first, followed by the XSLT transformation file.
+The order of parameters is important. The source XML has to always go first, followed by the XSLT transformation file. Any result of the transformation will come out to STDOUT, while errors will come out to SDTERR, as expected.
 
 ## License
 

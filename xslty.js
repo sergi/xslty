@@ -15,7 +15,7 @@ if (system.args.length < 3) {
 
 var url = "file://" + __dirname + '/index.html?';
 
-page.onConsoleMessage = function(msg) { console.log(msg); };
+page.onConsoleMessage = function(msg) { console.error(msg); };
 page.open(url, function(status) {
   setTimeout(function() {
     var doc = page.evaluate(function(_xml, _xslt) {
