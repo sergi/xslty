@@ -15,9 +15,9 @@ else {
   exec('phantomjs ' + file + ' ' + source + ' ' + sheet,
        function (error, stdout, stderr) {
          console.log(stdout);
-         console.log(stderr);
+         console.error(stderr);
          if (error !== null) {
-           console.log('error: ' + error);
+           console.error('error: ' + error);
          }
        });
 }
